@@ -6,7 +6,7 @@ import App from "./App.tsx"
 
 createRoot(document.getElementById("root")!).render(
   <StrictMode>
-    <main className="bg-[#0E0E10] text-white">
+    <main className="h-screen w-full bg-[#0E0E10] text-white">
       <App />
     </main>
   </StrictMode>
