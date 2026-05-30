@@ -1,4 +1,4 @@
-const Card = () => {
+const Letter = () => {
   return (
     <div className="relative inline-block">
       <img
@@ -13,4 +13,4 @@ const Card = () => {
   )
 }
 
-export default Card
+export default Letter
