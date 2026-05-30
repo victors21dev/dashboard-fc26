@@ -1,9 +1,11 @@
+import Card from "./components/card"
 import Header from "./components/header"
 
 export function App() {
   return (
-    <div className="flex p-6">
+    <div className="flex flex-col p-6">
       <Header />
+      <Card />
     </div>
   )
 }
