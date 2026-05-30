@@ -1,6 +1,7 @@
 import Letter from "./components/letter"
 import Header from "./components/header"
 import PlayerStyles from "./components/player-styles"
+import Sale from "./components/sale"
 
 export function App() {
   return (
@@ -8,7 +9,10 @@ export function App() {
       <Header />
       <section className="flex">
         <Letter />
-        <PlayerStyles />
+        <div className="ml-4 flex gap-2">
+          <Sale />
+          <PlayerStyles />
+        </div>
       </section>
     </div>
   )
